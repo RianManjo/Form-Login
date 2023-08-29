@@ -1,0 +1,116 @@
+*,html {
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+body {
+    position: absolute;
+    background-image: url('./assets/image/backgroudn.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.title {
+    text-align: center;
+    color: #fff;
+    margin-top: 10vh;
+    font-family: 'Mulish', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+}
+.wrap {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+    margin-top: 200px;
+    margin-left: 60vh;
+    width: auto;
+    height: 50vh;    
+}
+
+.box {
+    width: 75vh;
+    height: 60vh;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.3);    
+}
+
+.list-group {                    
+    height: 30vh;
+}
+
+.list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.input {
+    width: 50vh;
+    height: 6vh;
+    padding-left: 10px;
+    border-radius: 10px;    
+    background-color: rgba(0, 0, 0, 0.4);
+    font-family: 'Mulish', sans-serif;
+    color: #fff;    
+}
+
+.wrapper {
+    position: relative;
+    margin-left: 12vh;
+    margin-top: 2vh;
+    list-style-type: none;
+    color: #fff;
+    font-family: 'Mulish', sans-serif;
+    font-size: 12px;
+}
+
+.wrapper span {
+    position: relative;
+    margin-left: 20vh;    
+}
+
+.wrapper span a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.btn {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -3vh;    
+}
+
+button {
+    width: 120px;
+    height: 40px;
+    border-radius: 15px;
+    border: none;
+    background-color: #17B21D;
+    color: #fff;
+    font-family: 'Mulish', sans-serif;
+}
+
+button a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.parag {
+    text-align: center;    
+    margin-top: 2vh;
+}
+
+.parag a {
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 1;
+    font-size: 12px;    
+}
